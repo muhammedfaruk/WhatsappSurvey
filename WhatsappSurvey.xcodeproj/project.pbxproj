@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		599625862A61E81E00F7B8DE /* WhatsappSurveyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599625852A61E81E00F7B8DE /* WhatsappSurveyApp.swift */; };
+		599625882A61E81E00F7B8DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599625872A61E81E00F7B8DE /* ContentView.swift */; };
+		5996258A2A61E81F00F7B8DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599625892A61E81F00F7B8DE /* Assets.xcassets */; };
+		5996258D2A61E81F00F7B8DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5996258C2A61E81F00F7B8DE /* Preview Assets.xcassets */; };
+		5999DAF92A62A21F00EE243D /* SurveyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999DAF82A62A21F00EE243D /* SurveyModel.swift */; };
+		5999DAFE2A62A34B00EE243D /* SurveyItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999DAFD2A62A34B00EE243D /* SurveyItemView.swift */; };
+		5999DB012A62A38000EE243D /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999DB002A62A38000EE243D /* CustomProgressBar.swift */; };
+		59B927F42A62B46600AB23FB /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B927F32A62B46600AB23FB /* SurveyView.swift */; };
+		59B927F72A62B64A00AB23FB /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B927F62A62B64A00AB23FB /* Date+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		599625822A61E81E00F7B8DE /* WhatsappSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsappSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		599625852A61E81E00F7B8DE /* WhatsappSurveyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappSurveyApp.swift; sourceTree = "<group>"; };
+		599625872A61E81E00F7B8DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		599625892A61E81F00F7B8DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5996258C2A61E81F00F7B8DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5999DAF82A62A21F00EE243D /* SurveyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyModel.swift; sourceTree = "<group>"; };
+		5999DAFD2A62A34B00EE243D /* SurveyItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyItemView.swift; sourceTree = "<group>"; };
+		5999DB002A62A38000EE243D /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
+		59B927F32A62B46600AB23FB /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		59B927F62A62B64A00AB23FB /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5996257F2A61E81E00F7B8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		599625792A61E81E00F7B8DE = {
+			isa = PBXGroup;
+			children = (
+				599625842A61E81E00F7B8DE /* WhatsappSurvey */,
+				599625832A61E81E00F7B8DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		599625832A61E81E00F7B8DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				599625822A61E81E00F7B8DE /* WhatsappSurvey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		599625842A61E81E00F7B8DE /* WhatsappSurvey */ = {
+			isa = PBXGroup;
+			children = (
+				5996258B2A61E81F00F7B8DE /* Preview Content */,
+				59B927F52A62B62F00AB23FB /* Extension */,
+				5999DAFF2A62A35E00EE243D /* Custom */,
+				5999DAFB2A62A31200EE243D /* App */,
+				5999DAFA2A62A30D00EE243D /* Model */,
+				5999DAFC2A62A32200EE243D /* View */,
+			);
+			path = WhatsappSurvey;
+			sourceTree = "<group>";
+		};
+		5996258B2A61E81F00F7B8DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5996258C2A61E81F00F7B8DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5999DAFA2A62A30D00EE243D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5999DAF82A62A21F00EE243D /* SurveyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5999DAFB2A62A31200EE243D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				599625852A61E81E00F7B8DE /* WhatsappSurveyApp.swift */,
+				599625892A61E81F00F7B8DE /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5999DAFC2A62A32200EE243D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				599625872A61E81E00F7B8DE /* ContentView.swift */,
+				59B927F32A62B46600AB23FB /* SurveyView.swift */,
+				5999DAFD2A62A34B00EE243D /* SurveyItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5999DAFF2A62A35E00EE243D /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5999DB002A62A38000EE243D /* CustomProgressBar.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		59B927F52A62B62F00AB23FB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				59B927F62A62B64A00AB23FB /* Date+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		599625812A61E81E00F7B8DE /* WhatsappSurvey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599625902A61E81F00F7B8DE /* Build configuration list for PBXNativeTarget "WhatsappSurvey" */;
+			buildPhases = (
+				5996257E2A61E81E00F7B8DE /* Sources */,
+				5996257F2A61E81E00F7B8DE /* Frameworks */,
+				599625802A61E81E00F7B8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsappSurvey;
+			productName = WhatsappSurvey;
+			productReference = 599625822A61E81E00F7B8DE /* WhatsappSurvey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5996257A2A61E81E00F7B8DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					599625812A61E81E00F7B8DE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 5996257D2A61E81E00F7B8DE /* Build configuration list for PBXProject "WhatsappSurvey" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 599625792A61E81E00F7B8DE;
+			productRefGroup = 599625832A61E81E00F7B8DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				599625812A61E81E00F7B8DE /* WhatsappSurvey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		599625802A61E81E00F7B8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5996258D2A61E81F00F7B8DE /* Preview Assets.xcassets in Resources */,
+				5996258A2A61E81F00F7B8DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5996257E2A61E81E00F7B8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599625882A61E81E00F7B8DE /* ContentView.swift in Sources */,
+				5999DAF92A62A21F00EE243D /* SurveyModel.swift in Sources */,
+				59B927F42A62B46600AB23FB /* SurveyView.swift in Sources */,
+				599625862A61E81E00F7B8DE /* WhatsappSurveyApp.swift in Sources */,
+				5999DB012A62A38000EE243D /* CustomProgressBar.swift in Sources */,
+				59B927F72A62B64A00AB23FB /* Date+Ext.swift in Sources */,
+				5999DAFE2A62A34B00EE243D /* SurveyItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5996258E2A61E81F00F7B8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5996258F2A61E81F00F7B8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		599625912A61E81F00F7B8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsappSurvey/Preview Content\"";
+				DEVELOPMENT_TEAM = NWVGLJCR5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.net.WhatsappSurvey.WhatsappSurvey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		599625922A61E81F00F7B8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsappSurvey/Preview Content\"";
+				DEVELOPMENT_TEAM = NWVGLJCR5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.net.WhatsappSurvey.WhatsappSurvey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5996257D2A61E81E00F7B8DE /* Build configuration list for PBXProject "WhatsappSurvey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5996258E2A61E81F00F7B8DE /* Debug */,
+				5996258F2A61E81F00F7B8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599625902A61E81F00F7B8DE /* Build configuration list for PBXNativeTarget "WhatsappSurvey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599625912A61E81F00F7B8DE /* Debug */,
+				599625922A61E81F00F7B8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5996257A2A61E81E00F7B8DE /* Project object */;
+}
