@@ -10,7 +10,7 @@ import SwiftUI
 struct SurveyView: View {
     
     @Binding var survey: Survey
-    @State var presentSurveyDetail: Bool = true
+    @State var presentSurveyDetail: Bool = false
     
     var body: some View {
         VStack {
@@ -64,7 +64,7 @@ struct SurveyView: View {
         .background(
             RoundedRectangle(cornerRadius: 15)
                 .fill(Color("gray"))
-        )
+        )        
         .sheet(isPresented: $presentSurveyDetail) {
             NavigationView {
                 SurveyDetailView()

@@ -16,10 +16,12 @@ struct ContentView: View {
     ])
     
     var body: some View {
-        VStack {
+        ZStack {
+            Color("chatBackground")
             SurveyView(survey: $surveyData)
+                .padding(.horizontal)
         }
-        .padding()
+        .ignoresSafeArea()
     }
 }
 
